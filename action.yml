@@ -1,0 +1,7 @@
+---
+
+name: "isort"
+description: "Python isort linter."
+runs:
+  using: "docker"
+  image: "Dockerfile"
