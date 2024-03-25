@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-echo "Hello World!"
+echo "::error file=action.yml,title=some title,line=1,::this is a comment"
