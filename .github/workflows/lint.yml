@@ -12,6 +12,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Validate
-        uses: ./
-        id: isort
+#      - name: Validate
+#        uses: ./
+#        id: isort
+      - uses: isort/isort-action@master
